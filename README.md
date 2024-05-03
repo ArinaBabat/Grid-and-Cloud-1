@@ -1,10 +1,10 @@
 # Task 1. Basics of containerization
 
-Этот репозиторий содержит Dockerized приложение, состоящее из двух контейнеров: базы данных и точки входа.
+This repository contains a Dockerized application consisting of two containers: a database and an entry point.
 
-## Запуск приложения
+## Running the Application
 
-1. Соберите образы Docker для ваших контейнеров:
+1.Build Docker images for containers:
 
 ```bash
 docker-compose build
