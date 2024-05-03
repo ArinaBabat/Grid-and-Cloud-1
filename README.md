@@ -9,4 +9,28 @@ This repository contains a Dockerized application consisting of two containers: 
 ```bash
 docker-compose build 
 ```
-Start the containers:
+2. Start the containers:
+```bash
+docker-compose up -d
+```
+## Testing
+
+1.Check that the containers are successfully running:
+
+```bash
+docker-compose ps
+```
+2. Verify that the entry point successfully connects to the database and executes queries:
+```bash
+docker-compose logs entrypoint
+```
+## Testing
+
+1.Check that the containers are successfully running:
+
+```bash
+docker-compose down
+```
+## Technologies Used
+* Programming Language: JavaScript
+* Database: PostgreSQL
