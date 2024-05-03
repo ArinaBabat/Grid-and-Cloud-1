@@ -24,7 +24,7 @@ docker-compose ps
 ```bash
 docker-compose logs entrypoint
 ```
-## Testing
+## Stopping the Containers
 
 1.Check that the containers are successfully running:
 
