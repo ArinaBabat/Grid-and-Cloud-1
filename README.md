@@ -7,4 +7,6 @@ This repository contains a Dockerized application consisting of two containers: 
 1.Build Docker images for containers:
 
 ```bash
-docker-compose build
+docker-compose build 
+```
+Start the containers:
